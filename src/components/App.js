@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import { FirstPage } from '../components/FirstPage';
 import { SecondPage } from '../components/SecondPage'
 import './App.css';
@@ -9,8 +9,8 @@ class App extends Component {
         return (
            <div className='appContainer'>
                <ul>
-                   <li><a href="/">First page</a></li>
-                   <li><a href="/secondPage">Second page</a></li>
+                   <li><Link to="/">First page</Link></li>
+                   <li><Link to="/secondPage">Second page</Link></li>
                </ul>
                <hr/>
                <Switch>
