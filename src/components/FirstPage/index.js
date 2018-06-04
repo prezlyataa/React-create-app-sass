@@ -1,1 +1,1 @@
-export { FirstPage } from './firstPage.js';
+export { default as FirstPage } from './firstPage';

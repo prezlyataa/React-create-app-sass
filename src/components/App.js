@@ -14,8 +14,8 @@ class App extends Component {
                </ul>
                <hr/>
                <Switch>
-                   <Route exact path='/' component={FirstPage}/>
-                   <Route path='/secondPage' component={SecondPage}/>
+                   <Route exact path='/' component={ FirstPage }/>
+                   <Route path='/secondPage' component={ SecondPage }/>
                </Switch>
            </div>
         );
